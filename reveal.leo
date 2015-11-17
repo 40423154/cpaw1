@@ -10,7 +10,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
+<v t="amd.20150913232631.1"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 <v t="amd.20150915153206.1" a="E"><vh>專案說明</vh>
@@ -264,9 +264,9 @@
 </v>
 </v>
 </v>
-<v t="ibm.20150918175403.1" a="E"><vh>@clean cpw1.html</vh>
+<v t="ibm.20150918175403.1"><vh>@clean cpw1.html</vh>
 <v t="ibm.20150918175403.2"><vh>檔案說明</vh></v>
-<v t="ibm.20150918175403.3" a="E"><vh>html 標註</vh>
+<v t="ibm.20150918175403.3"><vh>html 標註</vh>
 <v t="ibm.20150918175403.4" a="E"><vh>body 標註</vh>
 <v t="ibm.20150918175403.5" a="E"><vh>div class="reveal"</vh>
 <v t="ibm.20150918175403.6" a="E"><vh>div class="slides"</vh>
@@ -489,12 +489,14 @@
 </v>
 </v>
 </v>
+<v t="leo.20151117181033.1"><vh>Recovered Nodes</vh>
+<v t="leo.20151117181033.2"><vh>Recovered node "html 標註" from @clean simplest.html</vh>
+<v t="leo.20151117181033.3"><vh>old:html 標註</vh></v>
+<v t="leo.20151117181033.4"><vh>new:html 標註</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
-<t tx="amd.20150913232627.2">@language xml
-@tabwidth -4
-@others
-</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -1987,9 +1989,6 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
 	&lt;![endif]--&gt;
 &lt;/head&gt;
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-&lt;/html&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1365161e5ee1a3e979d94ab7def658cb9564abe7
 @others
 </t>
 <t tx="amd.20150915211351.12">&lt;section&gt;
@@ -2235,5 +2234,56 @@ g.es("pelican 執行完畢")</t>
     &lt;p&gt;線上教材&lt;/p&gt;
     &lt;p&gt;影音教材&lt;/p&gt;
 &lt;/section&gt;</t>
+<t tx="leo.20151117181033.1"></t>
+<t tx="leo.20151117181033.2">(uncached) amd.20150915211351.1
+Diff...
+  &lt;!doctype html&gt;
+  &lt;html lang="en"&gt;
+  &lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+  &lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+  	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+  	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+  	&lt;!--[if lt IE 9]&gt;
+  	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+  	&lt;![endif]--&gt;
+  &lt;/head&gt;
++ &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
++ &lt;/html&gt;
++ &gt;&gt;&gt;&gt;&gt;&gt;&gt; 1365161e5ee1a3e979d94ab7def658cb9564abe7
+  @others
+</t>
+<t tx="leo.20151117181033.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+&lt;/html&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1365161e5ee1a3e979d94ab7def658cb9564abe7
+@others
+</t>
+<t tx="leo.20151117181033.4">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
 </tnodes>
 </leo_file>
